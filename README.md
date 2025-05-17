@@ -35,7 +35,7 @@ A responsive and minimal weather application built using **React + Vite**, allow
 
 | Search Weather | Display Weather Info |
 |----------------|-----------------------|
-| ![Search](https://via.placeholder.com/300x150?text=Search+City) | ![Info](https://via.placeholder.com/300x150?text=Weather+Info) |
+| ![Search](public/1.png) | ![Info](public/2.png) |
 
 
 ## 📁 Folder Structure
@@ -57,7 +57,7 @@ A responsive and minimal weather application built using **React + Vite**, allow
 ## 🛠️ Getting Started Locally
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Abhay-singh-Lodhi/weather-app.git
 cd weather-app
 npm install
 npm run dev
