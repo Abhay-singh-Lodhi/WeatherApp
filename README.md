@@ -57,7 +57,7 @@ A responsive and minimal weather application built using **React + Vite**, allow
 ## 🛠️ Getting Started Locally
 
 ```bash
-git clone https://github.com/Abhay-singh-Lodhi/weather-app.git
+git clone [https://github.com/Abhay-singh-Lodhi/WeatherApp.git]
 cd weather-app
 npm install
 npm run dev
