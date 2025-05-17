@@ -10,18 +10,17 @@ import { WeatherError } from "./WeatherError";
 import { getWeatherData } from "@/services/weatherService";
 import { WeatherData } from "@/types/weather";
 
-const DEFAULT_WEATHER: WeatherData = {
-  city: "Delhi",
-  feels_like: 32.35,
-  humidity: 32,
-  temp: 33.04,
-  tempMax: 33.04,
-  tempMin: 33.04,
-  weather: "clear sky",
-};
-
+// Enhanced version with improved structure and professional design
 export function WeatherApp() {
-  const [weatherData, setWeatherData] = useState<WeatherData>(DEFAULT_WEATHER);
+  const [weatherData, setWeatherData] = useState<WeatherData>({
+    city: "Delhi",
+    feels_like: 32.35,
+    humidity: 32,
+    temp: 33.04,
+    tempMax: 33.04,
+    tempMin: 33.04,
+    weather: "clear sky",
+  });
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [lastSearchedCity, setLastSearchedCity] = useState<string>("Delhi");
